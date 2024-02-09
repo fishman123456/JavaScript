@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1> Игра камень ножницы бумага</h1>
+    </header>
+    <main>
+        <div class="stylebutton">
+        <button name="rock"  value="камень"> камень </button>
+        <button name="paper" value="ножницы"> камень </button>
+        <button name="scrission" value="бумага"> камень </button>
+    </div>
+        <div class='player-button'>
+            <div class='pl-button' id='rock-butt'></div>
+            <div class='pl-button' id='paper-butt'></div>
+            <div class='pl-button' id='scrission-butt'></div>
+        </div>
+        <div class='result'>
+            <table class='result-table'>
+                
+                <thead>
+                    <th>Выбор пользователя</th>
+                    <th>Выбор компьютера</th>
+                    <th>Результат</th>
+                </thead>
+                <tbody>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <td id="player-choise-cell"></td>
+                    <td id="player-computer-cell"></td>
+                    <td id="result-cell"></td>
+                </tbody>
+
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        2024
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>

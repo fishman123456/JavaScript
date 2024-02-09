@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+header{
+    margin-top: 25px;
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+footer{
+    margin-top: 10px;
+text-align: center;
+}
+table,th{
+    margin: auto;
+    text-align: center;
+    border: 2px black solid;
+    width: 500px;
+    border-collapse: collapse;
+
+}
+button{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    cursor:pointer;
+    background-color:azure;
+    color: azure;
+    font-size: 5px;
+    font-family: inherit;
+}
+.player-button{
+    size: 100px;
+    border: 10px;
+    background-color: aqua;
+    border-color:bisque;
+}
+.result-table{
+    margin-top: 100px;
+}

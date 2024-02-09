@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        fund = +prompt("Credit sum");
+        months = +prompt("Credit term (months)");
+        creditBody = (fund * 0.18) *  (months / 12); // 1 сумму умножаем на проценты, 2 кол-во лет умножаем на годовой результат
+        monthlyPayment = creditBody / months;
+        for (i = 1; i <= months; i++)
+            console.log("month " + i + " payment " + monthlyPayment);
+           
+    </script>
+     <h1> monthlyPayment</h1>
+</body>
+
+</html>

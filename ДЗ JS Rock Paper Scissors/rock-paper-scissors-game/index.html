@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- игровое поле -->
+    <div class="game-field">
+        <h1>Rock Paper Scissors!</h1>
+
+        <!-- кнопки пользователя -->
+        <div class="player-buttons">
+            <div class="player-button" id="rock-button" name="rock"></div>
+            <div class="player-button" id="paper-button" name="paper"></div>
+            <div class="player-button" id="scissors-button" name="scissors"></div>
+        </div>
+        
+        <!-- таблица результатов -->
+        <div class="results">
+            <table class="results-table">
+                <!-- шапка таблицы -->
+                <thead>
+                    <th>Player</th>
+                    <th>Computer</th>
+                    <th>Result</th>
+                </thead>
+                <!-- тело таблицы -->
+                <tbody>
+                    <tr>
+                        <td id="player-choice-cell">-</td>
+                        <td id="computer-choice-cell">-</td>
+                        <td id="result-cell">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
